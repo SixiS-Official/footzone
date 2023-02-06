@@ -1,0 +1,51 @@
+body{
+    height: 100%;
+    background: rgb(112,30,244);
+    background: linear-gradient(0deg, rgba(112,30,244,1) 5%, rgba(34,34,64,1) 100%, rgba(0,255,184,1) 100%); 
+    background-repeat: no-repeat;
+    font-family: Arial;
+    color: white;
+  }
+  h1{
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .btn{
+    outline:none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background: rgb(46,39,73);
+    background: linear-gradient(0deg, rgba(46,39,73,1) 0%, rgba(122,0,255,1) 100%); 
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 6px #160436;    
+  }
+
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+
+  .btn:hover{
+    box-shadow: 0 4px #000000;
+    top: 2px;
+  }
+  .btn:active{
+    box-shadow: none;
+    top: 6px;
+  }
+  
+  
