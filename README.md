@@ -1,2 +1,3 @@
-# footzone
-test kodi addon
+# DAZN Clone addon for Kodi 19
+
+Solo la programmazione di dazn del giorno, a disposizione sul sito ufficiale di dazn, dazn.com. Niente di illegale qui...
