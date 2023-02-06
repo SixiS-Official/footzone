@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.ftzn"
+  version="2.3.2"
+  name="footzone"
+  provider-name="sxs">
+
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="it">footzone</summary>
+    <description lang="it_IT">Tutta la Serie A TIM, la Serie BKT, la Serie C, LaLiga, l’NFL, il tennis, l’UFC, il ciclismo e molto altro.</description>
+    <disclaimer lang="it_IT">Tutto questo è incluso nel piano STANDARD e nel piano PLUS. 2023 by sxs</disclaimer>
+    
+    <assets>
+      <icon>source/icon.png</icon>
+      <fanart>source/fanart.jpg</fanart>    
+    </assets>
+  
+  </extension>
+</addon>
