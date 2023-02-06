@@ -1,0 +1,2 @@
+# footzone
+test kodi addon
